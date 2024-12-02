@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curiosidades</title>
+    <script src="/assets/Js/script.js"></script>
     <link rel="stylesheet" href="/assets/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -87,6 +88,28 @@
           Genebra encanta pela diversidade cultural, atrações incríveis e paisagens de tirar o fôlego. É uma cidade onde se pode desfrutar de passeios relaxantes, 
           experiências culturais ricas e natureza encantadora. Prepare-se para umas férias inesquecíveis nesse notável destino europeu. As maravilhas de Genebra aguardam!
         </p>
+        <hr>
+        <h1>Deixe seu Feedback</h1>
+        <p>Compartilhe suas opiniões sobre as belezas naturais descritas.</p>
+        <hr>
+        <form id="feedbackForm">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome">
+          </div>
+  
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+          </div>
+  
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+  
+          <button type="button" class="button" onclick="validateForm()">Enviar Feedback</button>
+        </form>
       </div>
     </div>
   </div>
